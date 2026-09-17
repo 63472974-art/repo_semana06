@@ -1,10 +1,8 @@
-#BIENVENIDO A MI REPOSITORIO DE GITHUB
-#Datos
-print("=====DATOS=======")
-nombre=(input("cual es tu nombre:"))
-edad=(int(input("cual es tu edad:")))
-altura=(float(input("cual es tu estaura:")))
+nombre = input("Ingrese el nombre de la persona: ")
+edad = int(input("Ingrese la edad de la persona: "))
+altura = float(input("Ingrese la altura de la persona (en metros): "))
 
-print("nombre:",nombre)
-print("edad:",edad)
-print("altura:",altura)
+print("\n---DATOS REGISTRADOS---")
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Altura:",altura)
